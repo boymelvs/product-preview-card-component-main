@@ -27,7 +27,8 @@
    --font-fam-montserrat: "Montserrat", sans-serif;
    --font-fam-fraunces: "Fraunces", serif;
    --font-fam-monospace: "Space Mono", monospace;
-   --font-size-10: 62.5%; /* 10px */
+   --font-size-10: 62.5%;
+   /* 10px */
    --font-weight-500: 500;
    --font-weight-700: 700;
 }
@@ -69,11 +70,13 @@ body {
    align-items: center;
    justify-content: center;
    padding: 0 1rem;
+   height: 100%;
 }
 
 @media (min-width: 700px) {
    .card {
       flex-direction: row;
+      height: 43rem;
    }
 }
 
@@ -96,7 +99,7 @@ body {
 
    .product_desktop {
       width: 30rem;
-      height: 43rem;
+      height: 100%;
       border-radius: 1rem 0 0 1rem;
    }
 }
@@ -109,12 +112,12 @@ body {
    padding: 2rem;
    background: var(--white);
    border-radius: 0 0 1rem 1rem;
+   height: 100%;
 }
 
 @media (min-width: 700px) {
    .product_information {
       width: 30rem;
-      height: 43rem;
       padding: 3rem;
       border-radius: 0 1rem 1rem 0;
    }
